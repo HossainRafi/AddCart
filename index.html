@@ -9,6 +9,7 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <title>Add To Cart</title>
@@ -26,21 +27,41 @@
                 <h2 class="py-4 font-weight-bold mx-auto">Cart (2 Items)</h2>
                 <div class="row">
                   <!-- Cart image div -->
-                  <div class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center shadow-sm product_img">
-                    <img src="img-one.png" alt="Shirt Image" class="img-fluid" />
+                  <div
+                    class="col-md-5 col-11 mx-auto bg-light d-flex justify-content-center align-items-center shadow-sm product_img"
+                  >
+                    <img
+                      src="img-one.png"
+                      alt="Shirt Image"
+                      class="img-fluid"
+                    />
                   </div>
                   <!-- Cart product details -->
                   <div class="col-md-7 col-11 mx-auto px-4 mt-2">
                     <div class="row">
-                        <!-- Product name -->
-                        <div class="col-6 card-title">
-                            <h1 class="mb-4 product_name">Mens Shirt</h1>
-                            <p class="mb-2">Shirt - Blue</p>
-                            <p class="mb-2">Color: Blue</p>
-                            <p class="mb-3">Size: M</p>
-                        </div>
+                      <!-- Product name -->
+                      <div class="col-6 card-title">
+                        <h1 class="mb-4 product_name">Shirt</h1>
+                        <p class="mb-2">Shirt - Blue</p>
+                        <p class="mb-2">Color: Blue</p>
+                        <p class="mb-3">Size: M</p>
+                      </div>
+                      <!-- Quantity increase or decrease -->
+                      <div class="col-6">
+                        <ul class="pagination justify-content-end set_quantity">
+                          <li class="page-item">
+                            <button class="page-link" onclick="decreaseNumber()"><i class="uil uil-minus"></i></button>
+                          </li>
+                          <li class="page-item">
+                            <input class="page-link" type="text" name="" value="1" id="textbox"></input>
+                        </li>
+                          <li class="page-item">
+                            <button class="page-link" onclick="increaseNumber()"><i class="uil uil-plus"></i></button>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-
+                    
                   </div>
                 </div>
               </div>
