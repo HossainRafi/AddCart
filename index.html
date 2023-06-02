@@ -24,7 +24,7 @@
               class="col-md-12 col-lg-8 col-11 mx-auto main_cart mb-lg-0 mb-5 shadow-sm"
             >
               <div class="card p-4">
-                <h2 class="py-4 font-weight-bold mx-auto">Cart (2 Items)</h2>
+                <h2 class="py-4 font-weight-bold">Cart (2 Items)</h2>
                 <div class="row">
                   <!-- Cart image div -->
                   <div
@@ -32,7 +32,7 @@
                   >
                     <img
                       src="img-one.png"
-                      alt="Shirt Image"
+                      alt="Shirt"
                       class="img-fluid"
                     />
                   </div>
@@ -53,7 +53,7 @@
                             <button class="page-link" onclick="decreaseNumber()"><i class="uil uil-minus"></i></button>
                           </li>
                           <li class="page-item">
-                            <input class="page-link" type="text" name="" value="1" id="textbox"></input>
+                            <input type="text" name="" class="page-link" value="1" id="textbox"></input>
                         </li>
                           <li class="page-item">
                             <button class="page-link" onclick="increaseNumber()"><i class="uil uil-plus"></i></button>
@@ -61,7 +61,16 @@
                         </ul>
                       </div>
                     </div>
-                    
+                    <!-- Remove and price -->
+                    <div class="row">
+                        <div class="col-8 d-flex justify-content-between remove_wish">
+                            <p><i class="uil uil-trash-alt text-danger"></i></p>
+                            <hp><i class="uil uil-heart text-danger"></i></hp>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end price_money">
+                            <h3>$ <span>0.00</span></h3>
+                        </div>
+                    </div>
                   </div>
                 </div>
               </div>
