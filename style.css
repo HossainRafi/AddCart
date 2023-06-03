@@ -43,3 +43,14 @@ h2 {
   font-size: 0.9rem;
   font-weight: 500;
 }
+.remove-and-wish p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.price-money h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.set_quantity {
+  position: relative;
+}
