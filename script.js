@@ -1,5 +1,5 @@
-const decreaseNumber = () => {
-  var itemval = document.getElementById("textbox");
+const decreaseNumber = (incdec) => {
+  var itemval = document.getElementById(incdec);
   if (itemval.value <= 0) {
     itemval.value = 0;
     alert("Negative quantity not allowed");
@@ -10,13 +10,13 @@ const decreaseNumber = () => {
   }
 };
 
-const increaseNumber = () => {
-  var itemval = document.getElementById("textbox");
+const increaseNumber = (incdec) => {
+  var itemval = document.getElementById(incdec);
   if (itemval.value >= 5) {
     itemval.value = 5;
-      alert("5 Products in stock");
-      itemval.style.background = "red"
-      itemval.style.color="white"
+    alert("5 Products in stock");
+    itemval.style.background = "red";
+    itemval.style.color = "white";
   } else {
     itemval.value = parseInt(itemval.value) + 1;
   }
