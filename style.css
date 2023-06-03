@@ -64,3 +64,29 @@ h2 {
   right: 1.5rem;
   font-size: 0.8rem;
 }
+.page-link {
+  line-height: 16px;
+  width: 45px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #495057;
+}
+.page-link:hover {
+  text-decoration: none;
+  color: #495057;
+  outline: none !important;
+}
+.page-link:focus {
+  box-shadow: none;
+}
+.page-item input {
+  line-height: 29px;
+  padding: 3px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
