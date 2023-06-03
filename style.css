@@ -90,3 +90,9 @@ h2 {
   align-items: center;
   text-align: center;
 }
+.price_indiv p {
+  font-size: 1.1rem;
+}
+.uil:hover {
+  cursor: pointer;
+}
