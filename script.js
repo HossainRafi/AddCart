@@ -1,5 +1,6 @@
-const decreaseNumber = (incdec) => {
+const decreaseNumber = (incdec, itemprice) => {
   var itemval = document.getElementById(incdec);
+  var itemprice = document.getElementById(itemprice);
   if (itemval.value <= 0) {
     itemval.value = 0;
     alert("Negative quantity not allowed");
@@ -10,14 +11,16 @@ const decreaseNumber = (incdec) => {
   }
 };
 
-const increaseNumber = (incdec) => {
+const increaseNumber = (incdec, itemprice) => {
   var itemval = document.getElementById(incdec);
+  var itemprice = document.getElementById(itemprice);
   if (itemval.value >= 5) {
     itemval.value = 5;
     alert("5 Products in stock");
     itemval.style.background = "red";
     itemval.style.color = "white";
   } else {
-    itemval.value = parseInt(itemval.value) + 1;
+      itemval.value = parseInt(itemval.value) + 1;
+      
   }
 };
