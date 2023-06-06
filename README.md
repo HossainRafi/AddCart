@@ -2,7 +2,7 @@
 
 ## Project Live Link: [Cuisin]()
 
-## This is a JavaScript Product Add To Cart application build with HTML, CSS & JavaSceipt
+## This is a JavaScript Product Add To Cart application build with HTML, CSS & JavaScript
 
 ### Technology Used:
 - HTML
