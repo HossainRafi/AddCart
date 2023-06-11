@@ -28,6 +28,13 @@ const decreaseNumber = (price, quantity, total) => {
   document.getElementById("total_cart_amt").innerText = all_product_price + 50;
 };
 
+const CheckOut = () => {
+  Swal.fire({
+    icon: "warning",
+    title: "Checkout Done !!",
+  });
+};
+
 const increaseNumber = (price, quantity, total) => {
   var getPrice = document.getElementById(price).textContent;
   console.log(getPrice,'price');
