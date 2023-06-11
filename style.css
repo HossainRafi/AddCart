@@ -43,6 +43,11 @@ h2 {
   font-size: 0.9rem;
   font-weight: 500;
 }
+.span{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-clr);
+}
 .remove-and-wish p {
   font-size: 1rem;
   margin-bottom: 0;
