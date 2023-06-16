@@ -1,16 +1,12 @@
-## Project Name: [Cuisin]()
+## Project Name: [AddToCart]()
 
-## Project Live Link: [Cuisin]()
-
-## This is a JavaScript Product Add To Cart application build with HTML, CSS & JavaScript
-
-### Technology Used:
+## Tech Stack:
 - HTML
 - CSS
 - JavaScript
 
-![app image]()
-![app image]()
-![app image]()
-![app image]()
-![app image]()
+## Project Description:
+### This is a JavaScript Product Add To Cart application build with HTML, CSS & JavaScript
+
+## Project Screenshots:
+![app image](https://i.ibb.co/qnMYCTF/Screenshot-564.png)
