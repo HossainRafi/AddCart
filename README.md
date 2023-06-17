@@ -1,4 +1,4 @@
-## Project Name: [AddToCart]()
+## Project Name: [AddCart]()
 
 ## Tech Stack:
 - HTML
