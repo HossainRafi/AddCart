@@ -1,12 +1,12 @@
-## Project Name: [AddCart]()
+# Project Name: [AddCart](https://addcartjs.netlify.app)
 
-## Tech Stack:
+## Technologies:
 - HTML
 - CSS
 - JavaScript
 
 ## Project Description:
-### This is a JavaScript Product Add To Cart application build with HTML, CSS & JavaScript
+### This is a simple Product Add To Cart application build with HTML, CSS & JavaScript. It can add or remove product. And also can increase or decrese the quantity of product. Can calculate the product price and total amount of all products.
 
-## Project Screenshots:
+## Project Image:
 ![app image](https://i.ibb.co/qnMYCTF/Screenshot-564.png)
